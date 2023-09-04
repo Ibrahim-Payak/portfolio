@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "date": "06/20/2023",
+      "title": "Fond A Memory Collections",
+      "description": "Social media website that allowed users to post and share personal memories and experiences.",
+
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+      "github": "https://github.com/Ibrahim-Payak/Fond-A-Memory-Collections"
+    },
+    {
+      "date": "01/15/2023",
+      "title": "Chit Chat",
+      "description": "This is Realtime Chat Application made using React, node.js & Socket.io web socket library",
+
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+      "github": "https://github.com/Ibrahim-Payak/chit-chat"
+    },
+    {
+      "date": "12/28/2022",
+      "title": "Movies On Demand",
+      "description": "This is movie booking website with Payment Integration",
+
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+      "github": "https://github.com/Ibrahim-Payak/MovieOnDemand"
+    },
+    {
+      "date": "11/02/2022",
+      "title": "BikeZilla",
+      "description": "This website helps user to sell and buy any vehicle.",
+      "url": "https://fondmemorycollections.netlify.app/posts",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+      "github": "https://github.com/Ibrahim-Payak/BikeZilla"
+    },
+    {
+      "date": "08/15/2023",
+      "title": "Windbnb",
+      "description": "Smaller version of Airbnb - Windbnb",
+
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+      "github": "https://github.com/Ibrahim-Payak/windbnb"
+    }
+  ]
+}

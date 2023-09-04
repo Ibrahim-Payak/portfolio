@@ -1,0 +1,19 @@
+:root {
+  --text1: "Roboto", sans-serif;
+  --text2: "Montserrat", sans-serif;
+
+  --color1: #e0ebf2;
+  --color3: #6eb6d3;
+  --color3_1: #053a4f;
+  --color4: #fff;
+  --color5: #3e3939;
+  --color6: #161616;
+
+  --p: 13.33vmax;
+  --p_md: 7vmax;
+  --p_base: 5vmax;
+  --p_base_inverse: 15vmax 10vmax;
+  --p_sm: 2vmax;
+  --p_sm_inverse: 13vmax 0;
+  --p_zero: 0;
+}
