@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   padding: var(--p);
-  background-color: var(--color5);
+  background-color: var(--color1);
   color: var(--color4);
   overflow: hidden;
 }

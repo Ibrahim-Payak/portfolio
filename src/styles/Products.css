@@ -1,0 +1,50 @@
+/* Adjust padding of card body */
+.card-body {
+  padding: 0;
+}
+
+/* Add styles for product cards */
+.product-card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Add hover effect to product cards */
+.product-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the card title */
+.card-title {
+  text-align: center;
+  background-color: var(--color3);
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+/* Style the container and header */
+.container h3 {
+  color: var(--color3);
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  width: fit-content;
+  border-bottom: 2px solid var(--color3_1);
+}
+
+/* Style the navigation buttons */
+.btn-primary {
+  background-color: var(--color3);
+  border-color: var(--color3);
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}

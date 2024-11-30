@@ -69,7 +69,7 @@
   width: 10rem;
   color: var(--color5);
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 #home article p,
@@ -119,10 +119,10 @@
     transform: translate(-50%, -10px);
   }
 }
-
+/* 
 ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 @keyframes imageAnimatation {
   to {

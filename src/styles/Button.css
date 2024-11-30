@@ -1,0 +1,24 @@
+.button {
+  text-decoration: none;
+  max-width: auto;
+  background-color: var(--color3);
+  color: rgb(255, 255, 255);
+  padding: 1.4rem 2.4rem;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover,
+.button:active {
+  box-shadow: 0 2rem 2rem 0 rgb(132, 144, 255, 0.3);
+  transform: scale(0.96);
+}
+
+.button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}

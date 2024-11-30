@@ -1,38 +1,111 @@
 import React from "react";
+import {
+  AiOutlineArrowUp,
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiTwotoneMail,
+  AiFillEnvironment,
+} from "react-icons/ai";
 import "../styles/Footer.css";
-import { AiFillLinkedin, AiFillGithub, AiOutlineArrowUp } from "react-icons/ai";
-import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 
 const Footer = () => {
   return (
-    <div id="contact">
-      <footer>
-        <article>
-          <a href="https://www.linkedin.com/in/ibrahimpayak/" target={"blank"}>
-            <AiFillLinkedin />
-          </a>
-          <a href="https://github.com/Ibrahim-Payak" target={"blank"}>
-            <AiFillGithub />
-          </a>
+    <footer id="contact">
+      <div className="footer-container">
+        <div className="footer-column">
+          <div className="footer-widget">
+            <h2>About Company</h2>
+            <p>
+              Manufacturers of Strainer, Duplex Strainer, Basket Strainer, Y
+              Type Strainer, Self Cleaning Filter
+            </p>
+          </div>
+        </div>
 
-          <a href="https://leetcode.com/ibrahim_payak/" target={"blank"}>
-            <SiLeetcode />
-          </a>
+        <div className="footer-column">
+          <div className="footer-widget">
+            <h2>Products Range</h2>
+            <ul className="footer-service-list">
+              <li>
+                <a href="#">Strainers</a>
+              </li>
+              <li>
+                <a href="#">Valves</a>
+              </li>
+              <li>
+                <a href="#">Filters</a>
+              </li>
+              <li>
+                <a href="#">Automatic Filters</a>
+              </li>
+              <li>
+                <a href="#">Credentials</a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-          <a
-            href="https://auth.geeksforgeeks.org/user/ibupayak"
-            target={"blank"}
-          >
-            <SiGeeksforgeeks />
-          </a>
-        </article>
+        <div className="footer-column">
+          <div className="footer-widget contact">
+            <h2>Contact</h2>
+            <ul>
+              <li>
+                <strong>Address</strong>
+                <br />
+                Nr. Post office, A/9, ARCHNA INDUSTRIAL ESTATE NO.2, near BANNER
+                ESTATE, Rakhial, Ahmedabad, Gujarat 380023(INDIA)
+              </li>
 
-        <a href="#home" className="scroll-top">
-          <AiOutlineArrowUp />
-        </a>
-      </footer>
-      <small> Dev with ♥ by © Ibrahim Payak</small>
-    </div>
+              <li className="mail">
+                <strong>Mail Us</strong>
+                <br />
+                info@strainersindia.com
+              </li>
+            </ul>
+            <ul className="social-links">
+              <li>
+                <a href="https://www.facebook.com/acmefluidsystems">
+                  <AiFillFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/acmefluidsystems">
+                  <AiFillLinkedin />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:ibrahimpayak@gmail.com">
+                  <AiTwotoneMail />
+                </a>
+              </li>
+              <li>
+                <a href="https://maps.app.goo.gl/QXppxUYZMiswrQWM7">
+                  <AiFillEnvironment />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <a
+        href="#nav"
+        className="scroll-top"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToTop();
+        }}
+      >
+        <AiOutlineArrowUp />
+      </a>
+    </footer>
   );
 };
 
